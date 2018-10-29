@@ -80,6 +80,8 @@ OS - Windows
 
 **Methods allowed** - POST, OPTIONS
 
+**Request parameters** - "cab", "user" (Pass the primary keys for the cab and the user booking that cab)
+
        Books a cab for a user, if the cab is available.
 
 
