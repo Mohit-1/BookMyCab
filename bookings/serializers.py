@@ -11,7 +11,7 @@ class CabSerializer(serializers.HyperlinkedModelSerializer):
 		model = Cab
 		fields = '__all__'	
 
-class BookingSerializer(serializers.HyperlinkedModelSerializer):	
+class BookingSerializer(serializers.ModelSerializer):	
 	class Meta:
 		model = Booking
 		fields = '__all__'
